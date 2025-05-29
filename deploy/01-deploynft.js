@@ -19,7 +19,7 @@ module.exports = async ({ deployments, getNamedAccounts }) => {
 
   console.log("Constructor args:", args);
 
-  const nft = await deploy("nft", {
+  const nft = await deploy("RandomNft", {
     from: deployer,
     log: true,
     args:args
