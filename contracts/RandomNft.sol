@@ -8,7 +8,7 @@ import {VRFV2PlusClient} from "@chainlink/contracts/src/v0.8/vrf/dev/libraries/V
 error NeedMoreETHSent();
 error Transfer_Failed();
 
-contract nft is ERC721URIStorage, VRFConsumerBaseV2Plus {
+contract RandomNft is ERC721URIStorage, VRFConsumerBaseV2Plus {
     event RequestFulfilled(uint256 requestId, uint256[] randomWords);
     event NFTMinted(address indexed minter, uint256 indexed tokenId, string tokenURI);
     event randomWordsRequested(address indexed sender , uint256 indexed requestId);
