@@ -120,17 +120,3 @@ contract nft is ERC721URIStorage, VRFConsumerBaseV2Plus {
     receive() external payable {}
     fallback() external payable {}
 }
-
-
-        // s_tokenCounter = 0;
-        // i_subscriptionId = 43852619907888437924998710464537703569832687462981514791370309263181931267537;
-        // i_keyHash = 0x787d74caea10b2b357790d5b5247c2f63d1d91572a9846f780606e4d953677ae;
-        // i_requestConfirmations = 3;
-        // i_callbackGasLimit = 500000;
-        // s_dogTokenUris = [
-        //     "ipfs://QmExampleHash1/metadata.json",
-        //     "ipfs://QmExampleHash2/metadata.json",
-        //     "ipfs://QmExampleHash3/metadata.json"
-        // ];
-        // i_mintFee = 0.01 ether;
-        // i_owner = payable(msg.sender);
